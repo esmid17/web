@@ -7,12 +7,25 @@
     <title>Mi primera página</title>
 </head>
 <body>
-    <center><h1>Redes Sociales</h1></center>
-    
-    <a href="https://web.whatsapp.com" target="_blank"><h2>WhatsApp</h2></a>
-    <p>WhatsApp es una aplicación de mensajería instantánea para smartphones. La aplicación <strong> permite enviar no solo textos</strong> 
-        sino también imágenes, videos, audios, grabaciones de audio (notas de voz), documentos, ubicaciones, contactos, gifs, 
-        stickers, así como llamadas y videollamadas con varios participantes a la vez, entre otras funciones</p>
+    <div class="container">
+        <header>
+            <center><h1>Redes Sociales</h1></center>
+
+            <nav>
+                <ul>
+                    <li><a href="index.html" target="_blank">Home</a></li>
+                    <li><a href="https://web.whatsapp.com" target="_blank">WhatsApp</a></li>
+                    <li><a href="https://www.instagram.com" target="_blank">Instagram</a></li>
+                    <li><a href="https://www.facebook.com" target="_blank">Facebook</a></li>
+                </ul>
+            </nav>
+        </header>
+        Buscar: <input type="number" id="buscar" name="buscar" placeholder="Buscar">
+        <button id="botonbuscar">Buscar</button>
+
+    <section>
+        <h2>WhatsApp</h2>
+        <p>WhatsApp es una aplicación de mensajería instantánea para smartphones...</p>
         <dl>
             <dt>Características</dt>
                 <dd>Envía mensajes privados.</dd>
@@ -22,31 +35,50 @@
                 <dd>Computadoras.</dd>
                 <dd>Celulares.</dd>
         </dl>
- 
-        <a href="https://web.whatsapp.com" target="_blank"><center><img src="./images/WhatsAppLogo.png" alt="whatsapp" width="300" height="300"></center></a>
+        <figure>
+            <a href="https://web.whatsapp.com" target="_blank">
+                <img src="./images/WhatsAppLogo.png" alt="whatsapp" width="300" height="300">
+                <figcaption>WhatsApp - App de mensajería instantánea</figcaption>
+            </a>
+        </figure>
+        <button class="boton">Visitar página</button>
+    </section>
 
-    <a href="https://www.instagram.com" target="_blank"><h2>Instagram</h2></a>
-    <p>Instagram es una red social principalmente visual, donde un usuario puede publicar fotos y videos de corta duración, 
-        aplicarles efectos y también interactuar con las publicaciones de otras personas, a través de comentarios y me gusta.</p>
+    <section>
+        <h2>Instagram</h2>
+        <p>Instagram es una red social principalmente visual...</p>
         <p>Características</p>
         <ol>
             <li>Publicación y edición de imágenes.</li>
             <li>Publicación de videos en Instagram.</li>
             <li>Boomerang.</li>
         </ol>
-        <a href="https://www.instagram.com" target="_blank"><center><img src="./images/InstagramLogo.png" alt="instagram" width="300" height="300"></center></a>
+        <figure>
+            <a href="https://www.instagram.com" target="_blank">
+                <img src="./images/InstagramLogo.png" alt="instagram" width="300" height="300">
+                <figcaption>Instagram - Red social visual</figcaption>
+            </a>
+        </figure>
+        <button class="boton">Visitar página</button>
+    </section>
 
-    <a href="https://www.facebook.com" target="_blank"><h2>Facebook</h2></a>
-    <p>Facebook es la principal red social que existe en el mundo. Una red de vínculos virtuales, cuyo principal objetivo 
-        es dar un soporte para producir y compartir contenidos. Llegó para ampliar las posibilidades de relación social y 
-        causó una revolución sensible en el mundo de las comunicaciones.</p>
+    <section>
+        <h2>Facebook</h2>
+        <p>Facebook es la principal red social que existe en el mundo...</p>
         <p>Características</p>
         <ol>
             <li>Perfil personal</li>
             <li>Creación de grupos y páginas</li>
             <li>Sistema de mensajería</li>
         </ol>
-        <a href="https://www.facebook.com" target="_blank"><center><img src="./images/FacebookLogo.png" alt="facebook" width="300" height="300"></center></a>
-
+        <figure>
+            <a href="https://www.facebook.com" target="_blank">
+                <img src="./images/FacebookLogo.png" alt="facebook" width="300" height="300">
+                <figcaption>Facebook - Red social para conexiones sociales</figcaption>
+            </a>
+        </figure>
+        <button class="boton">Visitar página</button>
+    </section>
+</div>
 </body>
 </html>
