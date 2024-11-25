@@ -52,6 +52,7 @@ nav {
     text-decoration: double;
     color: #007bff;
     font-weight: bold;
+    text-align: center;
 }
 
 .boton {
@@ -96,6 +97,7 @@ aside {
 }
 
 .ad, .ad2 {
+    float: left;
     background-color: magenta;
     padding: 20px;
     text-align: center;
