@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Tablas</title>
+</head>
+<body>
+    <header>
+        <h1>Tablas</h1>
+        <p>El uso de la etiqueta <em>table</em>, es para el envío y recepción de información</p>
+    </header>
+    <section>
+        <article>
+            <table frame="hsides" rules="none" border="3px" cellpadding="10px" cellspacing="0px">
+                <caption align="bottom">
+                    Lista de estudiantes
+                  </caption>
+                  <colgroup>
+                        <col style="background-color: coral;">
+                        <col style="background-color: cornflowerblue; color: white;">
+                </colgroup>
+                <thead>
+                    <tr>
+                        <th align="center" width="300px">Nombres</th>
+                        <th colspan="2">Apellidos</th>
+                       <!-- <th>Dirección</th> -->
+                        <th>Teléfono</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td rowspan="4">Diego</td>
+                        <td>Gamboa</td>
+                        <td>Sangolquí</td>
+                        <td>000000000000</td>
+                    </tr>
+                    <tr>
+                        <td>Diego</td>
+                        <td>Gamboa</td>
+                        <td>Sangolquí</td>
+                        <td>000000000000</td>
+                    </tr>
+                    <tr>
+                        <td>Diego</td>
+                        <td>Gamboa</td>
+                        <td>Sangolquí</td>
+                        <td>000000000000</td>
+                    </tr>
+                   <tr>
+                        <td>Diego</td>
+                        <td>Gamboa</td>
+                        <td>Sangolquí</td>
+                        <td>000000000000</td>
+                    </tr>
+                </tbody>
+               <!-- <tfoot>
+                    <td>Sum</td>
+                    <td>Sum</td>
+                    <td>Sum</td>
+                    <td>000000000000</td>-->
+                </tfoot>
+            </table>
+        </article>
+        <article>
+            <form action="input" method="post">
+                <label>First Name:</label>
+                <input type="text" minlength="5" maxlength="20" id="txtName" placeholder="name">
+                <br>
+                <label>Last Name:</label>
+                <input type="text" id="txtLastName" placeholder="lastname">
+                <br>
+                <label>Password:</label>
+                <input type="password" id="txtPassword" placeholder="password">
+                <br>
+                <label>Tipo persona:</label>
+                <select id="CooTipo">
+                    <option>Estuadiante</option>
+                    <option>Docente</option>
+                    <option></option>
+                </select>
+                <br>
+                <label>Observación: </label>
+                <textarea name="taObservacion">
+                </textarea> 
+                <br>
+                <button class="boton" id="botonGuardar">Submit</button>
+            </form>
+        </article>
+    </section>
+    
+</body>
+</html>

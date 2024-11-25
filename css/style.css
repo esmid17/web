@@ -1,0 +1,48 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(73,235,230,1) 38%, rgba(0,212,255,1) 65%);
+    color:white;
+}
+
+caption{
+    background-color: aqua;
+}
+
+input[type="text"]{
+    background-color: transparent;
+    border-bottom: 1px solid #000;
+    border-radius: 0px;
+    color: aquamarine;
+}
+
+input[type="password"]{
+    background-color: aquamarine;
+    border: 0px;
+}
+
+/* input{
+    outline: none;
+    border: 0px;
+    border-radius: 10px;
+} */
+
+::placeholder{  /* "::" para psuedo-clases o pseudo-elementos */
+    color: magenta;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+input[type="text"]::placeholder{
+    color: yellow;
+}
+
+input[type="password"]::placeholder{
+    color: red;
+}
+
+#txtName::placeholder{
+    color:green;
+}
